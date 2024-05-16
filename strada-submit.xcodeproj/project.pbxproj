@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		9DC08AF82BF6328000F6BB1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08AF72BF6328000F6BB1B /* AppDelegate.swift */; };
 		9DC08AFA2BF6328000F6BB1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08AF92BF6328000F6BB1B /* SceneDelegate.swift */; };
-		9DC08AFC2BF6328000F6BB1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08AFB2BF6328000F6BB1B /* ViewController.swift */; };
 		9DC08AFF2BF6328000F6BB1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC08AFD2BF6328000F6BB1B /* Main.storyboard */; };
 		9DC08B012BF6328100F6BB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC08B002BF6328100F6BB1B /* Assets.xcassets */; };
 		9DC08B042BF6328100F6BB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC08B022BF6328100F6BB1B /* LaunchScreen.storyboard */; };
 		9DC08B0F2BF6328100F6BB1B /* strada_submitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08B0E2BF6328100F6BB1B /* strada_submitTests.swift */; };
 		9DC08B192BF6328100F6BB1B /* strada_submitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08B182BF6328100F6BB1B /* strada_submitUITests.swift */; };
 		9DC08B1B2BF6328100F6BB1B /* strada_submitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08B1A2BF6328100F6BB1B /* strada_submitUITestsLaunchTests.swift */; };
+		9DC08B292BF632B600F6BB1B /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = 9DC08B282BF632B600F6BB1B /* Turbo */; };
+		9DC08B2B2BF6389500F6BB1B /* FormComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08B2A2BF6389500F6BB1B /* FormComponent.swift */; };
+		9DC08B2E2BF638F600F6BB1B /* Strada in Frameworks */ = {isa = PBXBuildFile; productRef = 9DC08B2D2BF638F600F6BB1B /* Strada */; };
+		9DC08B302BF63AD900F6BB1B /* BridgeComponent+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08B2F2BF63AD900F6BB1B /* BridgeComponent+App.swift */; };
+		9DC08B322BF63C8300F6BB1B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08B312BF63C8300F6BB1B /* WebViewController.swift */; };
+		9DC08B342BF63E6C00F6BB1B /* WKWebViewConfiguration+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC08B332BF63E6B00F6BB1B /* WKWebViewConfiguration+App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		9DC08AF42BF6328000F6BB1B /* strada-submit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strada-submit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC08AF72BF6328000F6BB1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC08AF92BF6328000F6BB1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DC08AFB2BF6328000F6BB1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DC08AFE2BF6328000F6BB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DC08B002BF6328100F6BB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DC08B032BF6328100F6BB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		9DC08B142BF6328100F6BB1B /* strada-submitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "strada-submitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC08B182BF6328100F6BB1B /* strada_submitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strada_submitUITests.swift; sourceTree = "<group>"; };
 		9DC08B1A2BF6328100F6BB1B /* strada_submitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strada_submitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DC08B2A2BF6389500F6BB1B /* FormComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormComponent.swift; sourceTree = "<group>"; };
+		9DC08B2F2BF63AD900F6BB1B /* BridgeComponent+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BridgeComponent+App.swift"; sourceTree = "<group>"; };
+		9DC08B312BF63C8300F6BB1B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9DC08B332BF63E6B00F6BB1B /* WKWebViewConfiguration+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebViewConfiguration+App.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC08B292BF632B600F6BB1B /* Turbo in Frameworks */,
+				9DC08B2E2BF638F600F6BB1B /* Strada in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +109,16 @@
 		9DC08AF62BF6328000F6BB1B /* strada-submit */ = {
 			isa = PBXGroup;
 			children = (
+				9DC08B332BF63E6B00F6BB1B /* WKWebViewConfiguration+App.swift */,
 				9DC08AF72BF6328000F6BB1B /* AppDelegate.swift */,
 				9DC08AF92BF6328000F6BB1B /* SceneDelegate.swift */,
-				9DC08AFB2BF6328000F6BB1B /* ViewController.swift */,
 				9DC08AFD2BF6328000F6BB1B /* Main.storyboard */,
 				9DC08B002BF6328100F6BB1B /* Assets.xcassets */,
 				9DC08B022BF6328100F6BB1B /* LaunchScreen.storyboard */,
 				9DC08B052BF6328100F6BB1B /* Info.plist */,
+				9DC08B2A2BF6389500F6BB1B /* FormComponent.swift */,
+				9DC08B2F2BF63AD900F6BB1B /* BridgeComponent+App.swift */,
+				9DC08B312BF63C8300F6BB1B /* WebViewController.swift */,
 			);
 			path = "strada-submit";
 			sourceTree = "<group>";
@@ -143,6 +156,10 @@
 			dependencies = (
 			);
 			name = "strada-submit";
+			packageProductDependencies = (
+				9DC08B282BF632B600F6BB1B /* Turbo */,
+				9DC08B2D2BF638F600F6BB1B /* Strada */,
+			);
 			productName = "strada-submit";
 			productReference = 9DC08AF42BF6328000F6BB1B /* strada-submit.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,10 @@
 				Base,
 			);
 			mainGroup = 9DC08AEB2BF6328000F6BB1B;
+			packageReferences = (
+				9DC08B272BF632B600F6BB1B /* XCRemoteSwiftPackageReference "turbo-ios" */,
+				9DC08B2C2BF638F600F6BB1B /* XCRemoteSwiftPackageReference "strada-ios" */,
+			);
 			productRefGroup = 9DC08AF52BF6328000F6BB1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC08AFC2BF6328000F6BB1B /* ViewController.swift in Sources */,
+				9DC08B2B2BF6389500F6BB1B /* FormComponent.swift in Sources */,
 				9DC08AF82BF6328000F6BB1B /* AppDelegate.swift in Sources */,
 				9DC08AFA2BF6328000F6BB1B /* SceneDelegate.swift in Sources */,
+				9DC08B322BF63C8300F6BB1B /* WebViewController.swift in Sources */,
+				9DC08B342BF63E6C00F6BB1B /* WKWebViewConfiguration+App.swift in Sources */,
+				9DC08B302BF63AD900F6BB1B /* BridgeComponent+App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +631,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DC08B272BF632B600F6BB1B /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		9DC08B2C2BF638F600F6BB1B /* XCRemoteSwiftPackageReference "strada-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/strada-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DC08B282BF632B600F6BB1B /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DC08B272BF632B600F6BB1B /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+		9DC08B2D2BF638F600F6BB1B /* Strada */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DC08B2C2BF638F600F6BB1B /* XCRemoteSwiftPackageReference "strada-ios" */;
+			productName = Strada;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DC08AEC2BF6328000F6BB1B /* Project object */;
 }
